@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: rgb(193, 191, 191);
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items: center;
+  padding: 50px 0;
+}
+.nav{
+  background-color: white;
+  width: 600px;
+ 
+  border: 1px solid black;
+  border-radius: 10px;
+  margin:auto;
+  padding: 20px;
+}
+
+.wraper {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed;
+  font-size: 18px;
+}
+
+.title{
+  background-color: rgb(247, 174, 37);
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+#point{
+  color: orange;
+  text-decoration: underline;
+  margin-top:15px;
+  display: block;
+}
+
+
+.list{
+  
+  padding: 30px;
+  border: 1px solid rgb(202, 196, 196);
+  border-radius: 10px;
+}
+
+.diary-title{
+  background-color: rgb(230, 230, 230);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.kimchi{
+  font-weight: 600;
+  color: brown;
+}
+.cheese{
+  font-weight: 600;
+  color: rgb(255, 140, 0);
+}
+
+.gs{
+  font-style:italic;
+  font-size: 20px;
+  color: blue;
+}
+
+.날씨{
+  color: gray;
+  font-size: 15px;
+  text-align: end;
+}
